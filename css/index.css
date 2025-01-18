@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=Montserrat&display=swap");
+
+@import "variables.css";
+@import "reset.css";
+@import "global.css";
+@import "iconsfont.css";
+@import "elements.css";
+@import "slider.css";
+@import "header.css";
+@import "main.css";

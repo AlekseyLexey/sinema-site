@@ -1,0 +1,6 @@
+:root {
+  --default-color: rgba(152, 152, 152, 1);
+  --orange: rgba(255, 188, 91, 1);
+  --white: rgba(255, 255, 255, 1);
+  --small: rgba(81, 81, 81, 1);
+}

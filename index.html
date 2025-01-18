@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js" defer></script>
+    <title>Эльбрус Кино</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content container">
+        <div class="header__logo">
+          <a href="#"><img src="./svg/logo.svg" alt="Logo" /></a>
+        </div>
+
+        <div class="header__menu">
+          <div class="header__burger burger" id="burger">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+          </div>
+          <nav class="header__navigaton" id="menu">
+            <ul class="header__list">
+              <li>
+                <a href="" class="header__link header__link_active">Мое кино</a>
+              </li>
+              <li><a href="#" class="header__link">Магазин</a></li>
+              <li><a href="#" class="header__link">Покупки</a></li>
+              <li><a href="#" class="header__link icon-search"></a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header__profile">
+          <img src="img/user.jpg" alt="User avatar" />
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section class="main__section section">
+          <h2 class="section__title">Новое в подписке</h2>
+
+          <div class="section__slider slider">
+            <div class="slider__container" id="slider_small">
+              <div class="slider__item item-slider item-slider_small">
+                <div class="item-slider__img item-slider__img_small">
+                  <img src="./img/film1.png" alt="film" />
+                </div>
+                <div class="item-slider__film">Нулевой пациент</div>
+                <div class="item-slider__category">2022, драма, детектив</div>
+              </div>
+
+              <div class="slider__item item-slider item-slider_small">
+                <div class="item-slider__img item-slider__img_small">
+                  <img src="./img/film2.png" alt="film" />
+                </div>
+                <div class="item-slider__film">Мажор</div>
+                <div class="item-slider__category">2014, драма, криминал</div>
+              </div>
+
+              <div class="slider__item item-slider item-slider_small">
+                <div class="item-slider__img item-slider__img_small">
+                  <img src="./img/film3.png" alt="film" />
+                </div>
+                <div class="item-slider__film">Флешбэк</div>
+                <div class="item-slider__category">2022, боевик, триллер</div>
+              </div>
+
+              <div class="slider__item item-slider item-slider_small">
+                <div class="item-slider__img item-slider__img_small">
+                  <img src="./img/film1.png" alt="film" />
+                </div>
+                <div class="item-slider__film">Нулевой пациент</div>
+                <div class="item-slider__category">2022, драма, детектив</div>
+              </div>
+
+              <div class="slider__item item-slider item-slider_small">
+                <div class="item-slider__img item-slider__img_small">
+                  <img src="./img/film2.png" alt="film" />
+                </div>
+                <div class="item-slider__film">Мажор</div>
+                <div class="item-slider__category">2014, драма, криминал</div>
+              </div>
+
+              <div class="slider__item item-slider item-slider_small">
+                <div class="item-slider__img item-slider__img_small">
+                  <img src="./img/film3.png" alt="film" />
+                </div>
+                <div class="item-slider__film">Флешбэк</div>
+                <div class="item-slider__category">2022, боевик, триллер</div>
+              </div>
+
+              <div class="slider__item item-slider item-slider_small">
+                <div class="item-slider__img item-slider__img_small">
+                  <img src="./img/film2.png" alt="film" />
+                </div>
+                <div class="item-slider__film">Мажор</div>
+                <div class="item-slider__category">2014, драма, криминал</div>
+              </div>
+
+              <div class="slider__item item-slider item-slider_small">
+                <div class="item-slider__img item-slider__img_small">
+                  <img src="./img/film3.png" alt="film" />
+                </div>
+                <div class="item-slider__film">Флешбэк</div>
+                <div class="item-slider__category">2022, боевик, триллер</div>
+              </div>
+
+              <div class="slider__item item-slider item-slider_small">
+                <div class="item-slider__img item-slider__img_small">
+                  <img src="./img/film3.png" alt="film" />
+                </div>
+                <div class="item-slider__film">Флешбэк</div>
+                <div class="item-slider__category">2022, боевик, триллер</div>
+              </div>
+            </div>
+          </div>
+          <button class="slider__button slider__button--prev" id="prev-small">
+            <img src="svg/arrow.png" alt="prev" />
+          </button>
+          <button class="slider__button slider__button--next" id="next-small">
+            <img src="svg/arrow.png" alt="next" />
+          </button>
+        </section>
+
+        <section class="main__section section">
+          <h2 class="section__title">Рекомендуем посмотреть</h2>
+
+          <div class="section__slider slider">
+            <div class="slider__container" id="slider_big">
+              <div class="slider__item item-slider item-slider_small">
+                <div class="item-slider__img item-slider__img_small">
+                  <img src="./img/bryklin.jpg" alt="film" />
+                </div>
+                <div class="item-slider__film">Нулевой пациент</div>
+                <div class="item-slider__category">2022, драма, детектив</div>
+              </div>
+
+              <div class="slider__item item-slider item-slider_small">
+                <div class="item-slider__img item-slider__img_small">
+                  <img src="./img/doctorStrange.jpg" alt="film" />
+                </div>
+                <div class="item-slider__film">Мажор</div>
+                <div class="item-slider__category">2014, драма, криминал</div>
+              </div>
+
+              <div class="slider__item item-slider item-slider_small">
+                <div class="item-slider__img item-slider__img_small">
+                  <img src="./img/glass.jpg" alt="film" />
+                </div>
+                <div class="item-slider__film">Флешбэк</div>
+                <div class="item-slider__category">2022, боевик, триллер</div>
+              </div>
+
+              <div class="slider__item item-slider item-slider_small">
+                <div class="item-slider__img item-slider__img_small">
+                  <img src="./img/minions.jpg" alt="film" />
+                </div>
+                <div class="item-slider__film">Нулевой пациент</div>
+                <div class="item-slider__category">2022, драма, детектив</div>
+              </div>
+
+              <div class="slider__item item-slider item-slider_small">
+                <div class="item-slider__img item-slider__img_small">
+                  <img src="./img/mulan.jpeg" alt="film" />
+                </div>
+                <div class="item-slider__film">Мажор</div>
+                <div class="item-slider__category">2014, драма, криминал</div>
+              </div>
+
+              <div class="slider__item item-slider item-slider_small">
+                <div class="item-slider__img item-slider__img_small">
+                  <img src="./img/solo.jpg" alt="film" />
+                </div>
+                <div class="item-slider__film">Флешбэк</div>
+                <div class="item-slider__category">2022, боевик, триллер</div>
+              </div>
+
+              <div class="slider__item item-slider item-slider_small">
+                <div class="item-slider__img item-slider__img_small">
+                  <img src="./img/starWars.jpg" alt="film" />
+                </div>
+                <div class="item-slider__film">Мажор</div>
+                <div class="item-slider__category">2014, драма, криминал</div>
+              </div>
+
+              <div class="slider__item item-slider item-slider_small">
+                <div class="item-slider__img item-slider__img_small">
+                  <img src="./img/zveropolis.jpg" alt="film" />
+                </div>
+                <div class="item-slider__film">Флешбэк</div>
+                <div class="item-slider__category">2022, боевик, триллер</div>
+              </div>
+            </div>
+          </div>
+          <button class="slider__button slider__button--prev" id="prev-big">
+            <img src="svg/arrow.png" alt="prev" />
+          </button>
+          <button class="slider__button slider__button--next" id="next-big">
+            <img src="svg/arrow.png" alt="next" />
+          </button>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

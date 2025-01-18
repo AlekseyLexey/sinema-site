@@ -1,0 +1,36 @@
+.main {
+  padding-top: 130px;
+  min-height: 100vh;
+}
+.main__section {
+}
+.section {
+  position: relative;
+  margin-bottom: 100px;
+}
+.section__title {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 600;
+  color: var(--orange);
+  margin-bottom: 30px;
+}
+.section__slider {
+}
+
+@media (max-width: 768px) {
+  .section__title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  .main {
+    padding-top: 100px;
+  }
+  .section {
+    position: relative;
+    margin-bottom: 60px;
+  }
+}

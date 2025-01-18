@@ -1,0 +1,135 @@
+.slider {
+  position: relative;
+  width: 93%;
+  overflow: hidden;
+}
+.slider__container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  gap: 20px;
+}
+.slider__item {
+  min-width: calc(33.33% - 19px);
+}
+
+.item-slider {
+}
+.item-slider_small {
+}
+.item-slider__img {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.item-slider__img::after {
+  content: "9.8";
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 50px;
+  height: 30px;
+  background-color: var(--orange);
+  color: black;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.item-slider__img img {
+  object-fit: cover;
+  width: 100%;
+}
+.item-slider__img_small {
+}
+.item-slider__film {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.item-slider__category {
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--small);
+  line-height: 18px;
+}
+
+.slider__button {
+  display: block;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  background-color: inherit;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.slider__button--prev {
+  display: none;
+  transform: rotate(180deg) translateY(50%);
+  left: -5%;
+}
+.slider__button--prev.active {
+  display: block;
+}
+.slider__button--next {
+  transform: translateY(-50%);
+  right: 10px;
+}
+.slider__button--prev img,
+.slider__button--next img {
+  width: 100%;
+  object-fit: cover;
+  background-color: inherit;
+}
+
+@media (max-width: 1220px) {
+  .slider__button--prev {
+    left: -2%;
+  }
+}
+
+@media (max-width: 768px) {
+  .item-slider__img::after {
+    top: 12px;
+    left: 12px;
+    width: 40px;
+    height: 25px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .item-slider__film {
+    font-size: 0.9em;
+  }
+  .item-slider__category {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+@media (max-width: 640px) {
+  .slider__item {
+    min-width: calc(50% - 19px);
+  }
+  .slider__button {
+    padding: 5px;
+    width: 25px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 425px) {
+  .slider__item {
+    min-width: calc(100% - 19px);
+  }
+  .item-slider__film {
+    font-size: 0.8em;
+  }
+  .item-slider__category {
+    font-size: 10px;
+    line-height: 14px;
+  }
+}

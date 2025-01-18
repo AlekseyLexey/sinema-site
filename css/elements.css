@@ -1,0 +1,32 @@
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.burger {
+  cursor: pointer;
+  flex-direction: column;
+  width: 30px;
+  height: 20px;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.burger__line {
+  height: 3px;
+  background-color: #333;
+  transition: all 0.3s ease;
+}
+
+.burger__line.line1 {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger__line.line2 {
+  opacity: 0;
+}
+
+.burger__line.line3 {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
